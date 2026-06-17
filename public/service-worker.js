@@ -39,7 +39,7 @@ registerRoute(
 );
 
 /*
-可选的html缓存策略，StaleWhileRevalidate、NetworkFirst。
+OpcionalhtmlEstrategia de almacenamiento en cache，StaleWhileRevalidate、NetworkFirst。
  */
 
 registerRoute(/\.js$/, new StaleWhileRevalidate());
